@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\WellDone\\OneDrive\\Desktop\\politex\\Neyroni_mer\\Neyron_lab1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9732595D-D402-420D-A625-F387F0BB123C}|Neyron_lab1\\Neyron_lab1.pyproj|C:\\Users\\WellDone\\OneDrive\\Desktop\\politex\\Neyroni_mer\\Neyron_lab1\\Neyron_lab1\\Neyron_lab1.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9732595D-D402-420D-A625-F387F0BB123C}|Neyron_lab1\\Neyron_lab1.pyproj|solutionrelative:Neyron_lab1\\Neyron_lab1.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 174,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Neyron_lab1.py",
+              "DocumentMoniker": "C:\\Users\\WellDone\\OneDrive\\Desktop\\politex\\Neyroni_mer\\Neyron_lab1\\Neyron_lab1\\Neyron_lab1.py",
+              "RelativeDocumentMoniker": "Neyron_lab1\\Neyron_lab1.py",
+              "ToolTip": "C:\\Users\\WellDone\\OneDrive\\Desktop\\politex\\Neyroni_mer\\Neyron_lab1\\Neyron_lab1\\Neyron_lab1.py",
+              "RelativeToolTip": "Neyron_lab1\\Neyron_lab1.py",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2026-02-16T09:11:43.866Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
