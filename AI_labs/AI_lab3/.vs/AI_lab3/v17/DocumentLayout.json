@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\WellDone\\OneDrive\\Desktop\\politex\\AI\\AI_lab3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{035CA870-DC20-4564-A706-3AD2CB828E23}|AI_lab3\\AI_lab3.pyproj|C:\\Users\\WellDone\\OneDrive\\Desktop\\politex\\AI\\AI_lab3\\AI_lab3\\AI_lab3.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{035CA870-DC20-4564-A706-3AD2CB828E23}|AI_lab3\\AI_lab3.pyproj|solutionrelative:AI_lab3\\AI_lab3.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 174,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AI_lab3.py",
+              "DocumentMoniker": "C:\\Users\\WellDone\\OneDrive\\Desktop\\politex\\AI\\AI_lab3\\AI_lab3\\AI_lab3.py",
+              "RelativeDocumentMoniker": "AI_lab3\\AI_lab3.py",
+              "ToolTip": "C:\\Users\\WellDone\\OneDrive\\Desktop\\politex\\AI\\AI_lab3\\AI_lab3\\AI_lab3.py",
+              "RelativeToolTip": "AI_lab3\\AI_lab3.py",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAcwFgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2026-03-17T18:06:59.262Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
