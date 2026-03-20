@@ -1,0 +1,21 @@
+# Visual Studio та C++
+.vs/
+*.user
+*.suo
+*.ipch
+*.exe
+*.obj
+*.pdb
+*.ilk
+Debug/
+Release/
+
+# Java та Kotlin
+*.class
+.idea/
+out/
+build/
+
+# Python
+__pycache__/
+*.pyc
