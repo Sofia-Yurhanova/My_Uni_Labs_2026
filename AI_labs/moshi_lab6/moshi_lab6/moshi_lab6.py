@@ -122,7 +122,7 @@ class TicTacToeTreeGame:
 
     def computer_move(self):
        
-        difficulty = 1.0
+        difficulty = 0.5
 
         if random.random() > difficulty:
             available_moves = [i for i, x in enumerate(self.board) if x == ' ']
