@@ -1,0 +1,56 @@
+{
+    "classes": [
+        "1-А",
+        "1-Б"
+    ],
+    "subjects": {
+        "Читання": {
+            "count": 6,
+            "special_room": null,
+            "teacher_type": "homeroom"
+        },
+        "Математика": {
+            "count": 5,
+            "special_room": null,
+            "teacher_type": "homeroom"
+        },
+        "ЯДС": {
+            "count": 4,
+            "special_room": null,
+            "teacher_type": "homeroom"
+        },
+        "Мистецтво": {
+            "count": 4,
+            "special_room": null,
+            "teacher_type": "homeroom"
+        },
+        "Фізкультура": {
+            "count": 3,
+            "special_room": "Спортзал",
+            "teacher_type": "special_pe"
+        },
+        "Музика": {
+            "count": 2,
+            "special_room": "Клас музики",
+            "teacher_type": "special_music"
+        }
+    },
+    "teachers": {
+        "1-А": {
+            "homeroom": "Вчитель 1-А",
+            "special_pe": "Вчитель Фіз-ри",
+            "special_music": "Вчитель Музики"
+        },
+        "1-Б": {
+            "homeroom": "Вчитель 1-Б",
+            "special_pe": "Вчитель Фіз-ри",
+            "special_music": "Вчитель Музики"
+        }
+    },
+    "rooms": {
+        "1-А": "Кабінет 1-А",
+        "1-Б": "Кабінет 1-Б",
+        "Спортзал": "Спортзал",
+        "Клас музики": "Клас музики"
+    }
+}

@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>375e5d29-6dc9-457c-9b47-fa01fbe25bac</ProjectGuid>
+    <ProjectGuid>9055cec9-b746-4aa7-91f1-2a12ed1de030</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>task1.py</StartupFile>
+    <StartupFile>moshi_lab6.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Lab4_CentNN</Name>
-    <RootNamespace>Lab4_CentNN</RootNamespace>
+    <Name>moshi_lab6</Name>
+    <RootNamespace>moshi_lab6</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,13 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Lab4_CentNN.py" />
-    <Compile Include="task1.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="task2.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="moshi_lab6.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

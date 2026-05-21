@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="10" xmlns:fx="http://javafx.com/fxml" fx:controller="org.example.lab6.OrderController">
+    <padding><Insets top="10" right="10" bottom="10" left="10"/></padding>
+
+    <TableView fx:id="table" VBox.vgrow="ALWAYS">
+        <columns>
+            <TableColumn text="ID" prefWidth="30"><cellValueFactory><PropertyValueFactory property="id" /></cellValueFactory></TableColumn>
+            <TableColumn text="Товар" prefWidth="120"><cellValueFactory><PropertyValueFactory property="productName" /></cellValueFactory></TableColumn>
+            <TableColumn text="Ціна" prefWidth="60"><cellValueFactory><PropertyValueFactory property="price" /></cellValueFactory></TableColumn>
+            <TableColumn text="К-ть" prefWidth="50"><cellValueFactory><PropertyValueFactory property="quantity" /></cellValueFactory></TableColumn>
+            <TableColumn text="Замовник" prefWidth="120"><cellValueFactory><PropertyValueFactory property="customerName" /></cellValueFactory></TableColumn>
+            <TableColumn text="Місто" prefWidth="100"><cellValueFactory><PropertyValueFactory property="city" /></cellValueFactory></TableColumn>
+            <TableColumn text="Доставка" prefWidth="100"><cellValueFactory><PropertyValueFactory property="deliveryMethod" /></cellValueFactory></TableColumn>
+            <TableColumn text="Оплачено" prefWidth="70"><cellValueFactory><PropertyValueFactory property="paidStatus" /></cellValueFactory></TableColumn>
+        </columns>
+    </TableView>
+
+    <GridPane hgap="10" vgap="10">
+        <TextField fx:id="fProduct" promptText="Назва товару" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+        <TextField fx:id="fPrice" promptText="Ціна" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+        <TextField fx:id="fQty" promptText="Кількість" GridPane.columnIndex="2" GridPane.rowIndex="0"/>
+        <TextField fx:id="fName" promptText="Замовник" GridPane.columnIndex="3" GridPane.rowIndex="0"/>
+
+        <TextField fx:id="fCity" promptText="Місто" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+        <ComboBox fx:id="fDelivery" promptText="Спосіб доставки" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+        <CheckBox fx:id="fPaid" text="Оплачено" GridPane.columnIndex="2" GridPane.rowIndex="1"/>
+        <Button text="Додати замовлення" onAction="#handleAdd" style="-fx-background-color: #4CAF50; -fx-text-fill: white;" GridPane.columnIndex="3" GridPane.rowIndex="1"/>
+    </GridPane>
+
+    <Separator />
+
+    <HBox spacing="10" alignment="CENTER_LEFT">
+        <Button text="Усі записи" onAction="#handleShowAll" />
+        <TextField fx:id="fSearchCity" promptText="Введіть місто" />
+        <Button text="Знайти оплачені" onAction="#handleFilterCity" />
+
+        <ComboBox fx:id="fSearchDelivery" promptText="Доставка" />
+        <Button text="Знайти неоплачені" onAction="#handleFilterDelivery" />
+
+        <Region HBox.hgrow="ALWAYS" />
+        <Button text="Видалити обране" onAction="#handleDelete" style="-fx-background-color: #f44336; -fx-text-fill: white;"/>
+    </HBox>
+</VBox>
